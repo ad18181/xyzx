@@ -21,13 +21,13 @@ pipeline {
                 docker { image 'busybox:latest' }
             } 
             steps {
-                sh 'touch hello.txt'
+                sh 'pwd'
             }
         }
         stage('st 3 ') {
             agent any 
             steps {
-                sh 'ls'
+                sh 'pwd'
             }
            
         }
