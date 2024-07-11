@@ -18,10 +18,10 @@ pipeline {
         
         stage('Build') {
             agent {
-                docker { image 'busybox:latest' }
+                docker { image 'horuszup/horusec-cli:alpha' }
             } 
             steps {
-                sh 'pwd'
+                sh 'horusec start -p="./" --disable-docker="true" --config-file-path=horusec-config.json '
             }
         }
         stage('st 3 ') {
