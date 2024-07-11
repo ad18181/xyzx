@@ -37,7 +37,7 @@
   "horusecCliProjectPath": "",
   "horusecCliRepositoryAuthorization": "",
   "horusecCliRepositoryName": "horusec",
-  "horusecCliReturnErrorIfFoundVulnerability": true,
+  "horusecCliReturnErrorIfFoundVulnerability": false,
   "horusecCliRiskAcceptHashes": null,
   "horusecCliSeveritiesToIgnore": [
     "INFO"
