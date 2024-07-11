@@ -27,7 +27,7 @@ pipeline {
         stage('st 3 ') {
             agent any 
             steps {
-                sh 'pwd'
+                sh 'cat report.json'
             }
            
         }
