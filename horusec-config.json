@@ -35,7 +35,7 @@
   "horusecCliMonitorRetryInSeconds": 15,
   "horusecCliPrintOutputType": "json",
   "horusecCliProjectPath": "",
-  "horusecCliRepositoryAuthorization": "",
+  "horusecCliRepositoryAuthorization": "1194c1fe-148c-4ed8-968d-9942c9b73ea7",
   "horusecCliRepositoryName": "horusec",
   "horusecCliReturnErrorIfFoundVulnerability": false,
   "horusecCliRiskAcceptHashes": null,
